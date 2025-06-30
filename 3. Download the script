@@ -1,2 +1,0 @@
-curl -O https://raw.githubusercontent.com/pars1500/Iran-internet-censorship-tester/main/net_test.sh
-chmod +x net_test.sh
