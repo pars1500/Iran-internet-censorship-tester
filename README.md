@@ -34,18 +34,18 @@ This script helps you check:
 ```bash
 pkg update && pkg install curl dnsutils openssl python -y
 
-3. Download the script:
+### 3. Download the script:
 
 curl -O https://raw.githubusercontent.com/pars1500/Iran-internet-censorship-tester/main/net_test.sh
 chmod +x net_test.sh
 
-4. Run the script:
+### 4. Run the script:
 
 ./net_test.sh
 
 You'll see a menu with 13 test options + a full test.
 
-📷 Screenshot
+### 📷 Screenshot
 
 📡 Internet Censorship Test Menu
 --------------------------------------
@@ -64,7 +64,7 @@ You'll see a menu with 13 test options + a full test.
 13) Test Tor Meek Bridge
 14) Run All Tests
 
-🛡 License
+### 🛡 License
 
 MIT License © pars1500
 
