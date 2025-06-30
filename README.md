@@ -33,3 +33,38 @@ This script helps you check:
 
 ```bash
 pkg update && pkg install curl dnsutils openssl python -y
+
+3. Download the script:
+
+curl -O https://raw.githubusercontent.com/pars1500/Iran-internet-censorship-tester/main/net_test.sh
+chmod +x net_test.sh
+
+4. Run the script:
+
+./net_test.sh
+
+You'll see a menu with 13 test options + a full test.
+
+📷 Screenshot
+
+📡 Internet Censorship Test Menu
+--------------------------------------
+1) Check Internet Connectivity
+2) Check for DNS Hijacking
+3) Check Blocked Websites
+4) Check VPN/Tor Ports
+5) Test DNS-over-HTTPS (DoH)
+6) Global Domain Reachability Test
+7) Advanced DNS Leak Test
+8) TLS SNI Censorship Detection
+9) ICMP Fragmentation Check
+10) Run Speed Test
+11) Check QUIC Protocol
+12) Exit IP and Geolocation
+13) Test Tor Meek Bridge
+14) Run All Tests
+
+🛡 License
+
+MIT License © pars1500
+
